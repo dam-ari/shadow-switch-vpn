@@ -14,7 +14,6 @@ Shadow Switch VPN is a Python-based tool that automates the process of connectin
 
 - Python 3.x
 - Administrative privileges to install software and configure the network
-- Internet access to download OpenVPN and configuration files
 
 ## Installation and Usage
 
@@ -27,18 +26,21 @@ cd shadowswitch
 
 ### Step 2: Install Dependencies
 
-Ensure you have Python 3.x installed. Then, install the necessary Python packages:
+Ensure you have Python 3.x installed.
+<!--
+Then, install the necessary Python packages:
 
 ```bash
 pip install -r requirements.txt
 ```
+-->
 
 ### Step 3: Run the Script
 
 To start using **Shadowswitch**, run the following command:
 
 ```bash
-python shadowswitch.py
+python ssv.py
 ```
 
 The script will prompt you to choose a country, check if OpenVPN is installed, and guide you through setting up the VPN connection.
